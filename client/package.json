@@ -1,28 +1,27 @@
-
 {
     "name": "press-to-speak-client",
     "version": "1.0.0",
     "description": "Press-to-speak çeviri uygulaması için client",
     "main": "App.js",
     "scripts": {
-      "start": "react-native start",
-      "android": "react-native run-android",
-      "ios": "react-native run-ios"
+        "start": "react-native start",
+        "android": "react-native run-android",
+        "ios": "react-native run-ios"
     },
     "dependencies": {
-      "@react-native-async-storage/async-storage": "^1.17.11",
-      "@react-navigation/native": "^6.0.10",
-      "@react-navigation/stack": "^6.2.1",
-      "axios": "^1.2.0",
-      "react": "18.1.0",
-      "react-native": "0.70.6"
+        "@react-native-async-storage/async-storage": "^1.17.11",
+        "@react-native/gradle-plugin": "^0.76.0",
+        "@react-navigation/native": "^6.0.10",
+        "@react-navigation/stack": "^6.2.1",
+        "axios": "^1.2.0",
+        "react": "18.1.0",
+        "react-native": "0.70.6"
     },
     "devDependencies": {
-      "@babel/core": "^7.12.9",
-      "@babel/runtime": "^7.12.5",
-      "react-native-reanimated": "^2.3.0"
+        "@babel/core": "^7.12.9",
+        "@babel/runtime": "^7.12.5",
+        "react-native-reanimated": "^2.3.0"
     },
     "author": "CotNeo",
     "license": "MIT"
-  }
-  
+}
